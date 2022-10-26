@@ -1,7 +1,7 @@
 import React from 'react'
 import './services.css'
 
-const services = () => {
+const Services = () => {
   return (
     <div>
       Services
@@ -9,4 +9,4 @@ const services = () => {
   )
 }
 
-export default services
+export default Services

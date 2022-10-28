@@ -9,7 +9,10 @@ import { SiVisualstudiocode } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import {SiCodepen } from "react-icons/si";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faC } from '@fortawesome/free-solid-svg-icons';
+import { faTools } from '@fortawesome/free-solid-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 const Experience = () => {
   return (
@@ -18,10 +21,13 @@ const Experience = () => {
       <h2>Techincal Skills</h2>
       <div className="container experience__container">
         <div className="experience_frontend">
-          <h3>Programming Languages</h3>
+          <div className="font-div">
+            <FontAwesomeIcon icon={faCode} className="font-icon"></FontAwesomeIcon>
+            <h3>Programming Languages</h3>
+          </div>
           <div className="experience_content">
             <article className="experience_details">
-              <SiHtml5 className="experience_details-icon"/>
+              <FontAwesomeIcon icon={faC} className="experience_details-icon"></FontAwesomeIcon>
               <div>
                 <h4>C</h4>
                 <small className="text-light">Experience</small>
@@ -65,7 +71,10 @@ const Experience = () => {
           </div>
         </div>
         <div className="experience_backend">
-          <h3>Tools In My System</h3>
+          <div className="font-div">
+            <FontAwesomeIcon icon={faTools} className="font-icon"></FontAwesomeIcon>
+            <h3>Tools In My System</h3>
+          </div>
           <div className="experience_content">
             <article className="experience_details">
               <SiVisualstudiocode className="experience_details-icon"/>

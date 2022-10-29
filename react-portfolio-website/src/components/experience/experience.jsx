@@ -2,7 +2,7 @@ import React from "react";
 import "./experience.css";
 import { SiHtml5} from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
-import { DiJavascript} from "react-icons/di";
+import { IoLogoJavascript} from "react-icons/io";
 import { IoLogoPython } from "react-icons/io";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiVisualstudiocode } from "react-icons/si";
@@ -48,24 +48,24 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience_details">
-              <DiJavascript className="experience_details-icon"/>
+              <IoLogoJavascript className="experience_details-icon"/>
               <div>
                 <h4>JavaSript</h4>
-                <small className="text-light">Intermediat</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
               <IoLogoPython className="experience_details-icon"/>
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Intermediat</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
               <RiReactjsLine className="experience_details-icon"/>
               <div>
                 <h4>ReactJS</h4>
-                <small className="text-light">Intermediat</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
@@ -87,21 +87,21 @@ const Experience = () => {
               <FaGitAlt className="experience_details-icon"/>
               <div>
                 <h4>Git</h4>
-                <small className="text-light">Intermediat</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
               <FaGithub className="experience_details-icon"/>
               <div>
                 <h4>Github</h4>
-                <small className="text-light">Intermediat</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
               <SiCodepen className="experience_details-icon"/>
               <div>
                 <h4>Codepen</h4>
-                <small className="text-light">Intermediat</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>

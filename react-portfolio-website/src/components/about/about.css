@@ -26,7 +26,7 @@
 }
 
 .about__me-image:hover {
-    transform: rotate(0deg);
+    transform: rotate(0);
 }
 
 .about__cards {
@@ -36,6 +36,7 @@
 }
 
 .about__card {
+    margin-bottom: 1rem;
     background-color: var(--color-bg-varient);
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -60,12 +61,20 @@
 
 .about__card h5{
     font-size: 0.95rem;
+}
+
+.about__card small {
+    font-size: 0.7rem;
     color: var(--color-light);
 }
 
 .about__card p{
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+.about__content a {
+    margin-top: 2rem;
 }
 
 /* ================== MEDIA QUERIES (MEDIUM DEVICES)================ */
@@ -76,10 +85,15 @@
     grid: 0;
    }
 
-   .about_me {
-    width: 50%;
-    margin: 2rem auto 4rem;
-   }
+   .about__me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about__content {
+        margin-top: -3rem;
+        margin-bottom: 6rem;
+    }
 
    .about__content p {
     margin: 1rem 0 1.54rem;
@@ -89,9 +103,13 @@
 /* ================== MEDIA QUERIES (SMALL DEVICES)================ */
 
 @media screen and (max-width: 600px) {
+    .about__container {
+        margin-top: -10rem;
+    }
+
     .about__me {
         width: 65%;
-        margin: 0 auto 3rem;
+        margin: 3rem auto 3rem;
     }
 
     .about__cards {
@@ -100,10 +118,16 @@
     }
 
     .about__content {
+        margin-top: -6rem;
+        margin-bottom: 6rem;
         text-align: center;
     }
 
     .about__content p {
         margin: 1.5rem 0;
+    }
+
+    .about__content a {
+        margin: -1.5rem;
     }
 }

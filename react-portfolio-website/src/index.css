@@ -129,9 +129,9 @@ img {
 
 @media screen and (max-width: 600px) {
      .container {
-        width: var(--container-width-ms);
+        width: var(--container-width-sm);
      }
      section > h2 {
-        margin-top: 2rem;
+        margin-bottom: 2rem;
      }
 }

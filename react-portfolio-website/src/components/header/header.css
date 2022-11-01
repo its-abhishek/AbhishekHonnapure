@@ -31,7 +31,7 @@ header {
  }
 
  .header__socials::after {
-    content: '';
+    content: "";
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
@@ -44,10 +44,9 @@ header {
     width: 22rem;
     height: 30rem;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 1rem 1.5rem 1.5rem 1.5rem;
  }
@@ -56,11 +55,11 @@ header {
 
   .scroll__down {
     position: absolute;
-    right: -2.5rem;
+    right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   /* ================== MEDIA QUERIES (MEDIUM DEVICES)================ */
@@ -76,7 +75,6 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
-        text-align: center;
     }
    
     .header__socials, .scroll__down {

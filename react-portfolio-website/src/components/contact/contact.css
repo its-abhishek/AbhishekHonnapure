@@ -53,6 +53,14 @@ input, textarea {
     color: var(--color-white);
 }
 
+.message-icon {
+    position: relative;
+    top: 4px;
+    left: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 /* ================== MEDIA QUERIES (MEDIUM DEVICES)================ */
 
 @media screen and (max-width: 1024px) {

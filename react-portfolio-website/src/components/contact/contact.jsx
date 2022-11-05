@@ -3,7 +3,20 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {TfiTwitter} from 'react-icons/tfi'
 import {BsInstagram} from 'react-icons/bs'
+import {AiOutlineSend} from 'react-icons/ai'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_qabq9ng', 'template_b56zth1', form.current, 'uYhs2helF0OSXgIBH')
+    
+    e.target.reset();
+  };
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -31,11 +44,12 @@ const Contact = () => {
             </article>
           </div>
           {/*End Of Contact section*/}
-          <form action=''>
-            <input type='text' name='name' placeholder='Your Full Name' required/>
-            <input type='email' name='email' placeholder='Your Email' required/>
-            <textarea type='message' rows='7' placeholder='Your Massage' required/>
-            <button type='submit' className='btn btn-primary'>Send Massage</button>
+          <form ref={form} onSubmit={sendEmail}>
+            <input type='text' name='name' placeholder='Full Name' required/>
+            <input type='email' name='email' placeholder='Email' required/>
+            <input type='subject' name='subject' placeholder='Subject' required/>
+            <textarea type='message' name='message' rows='7' placeholder='Massage' required/>
+            <button type='submit' className='btn btn-primary'>Send Massage<AiOutlineSend className='message-icon'/></button>
           </form>
       </div>
     </section>

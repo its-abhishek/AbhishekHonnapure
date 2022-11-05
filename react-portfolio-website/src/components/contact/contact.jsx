@@ -32,7 +32,10 @@ const Contact = () => {
           </div>
           {/*End Of Contact section*/}
           <form action=''>
-
+            <input type='text' name='name' placeholder='Your Full Name' required/>
+            <input type='email' name='email' placeholder='Your Email' required/>
+            <textarea type='message' row='7' placeholder='Your Massage' required></textarea>
+            <button type='submit' className='btn btn-primary'>Send Massage</button>
           </form>
       </div>
     </section>

@@ -3,13 +3,17 @@ import "./footer.css"
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {FaGithub} from 'react-icons/fa'
+import {GrLinkedinOption} from 'react-icons/gr'
+import {SiTwitter} from 'react-icons/si'
 
 const Footer = () => {
   return (
     <footer>
-      <a href='#' className='footer_logo'>EGATOR</a>
-
-      <ul className='permalink'>
+      <a href='#' className='footer__logo'>ABHISHEK HONNAPURE</a>
+      <div className='sub-text'>
+        <small>Student at PES University, Bangalore, Karnataka, India</small>
+      </div>
+      <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>About</a></li>
         <li><a href='#experience'>Experience</a></li>
@@ -19,12 +23,14 @@ const Footer = () => {
         <li><a href='#contact'>Contact</a></li>
       </ul>
       <div className='footer__socials'>
-        <a href=''><FaFacebookF/></a>
-        <a href=''><FiInstagram/></a>
-        <a href=''><FaGithub/></a>
+        <a href='https://www.linkedin.com/in/abhishek-honnapure-547636232/' target='_blank'><GrLinkedinOption/></a>
+        <a href='https://github.com/its-abhishek' target='_blank'><FaGithub/></a>
+        <a href='https://www.instagram.com/_its__abhi__7/' target='_blank'><FiInstagram/></a>
+        <a href='https://twitter.com/honnapure' target='_blank'><SiTwitter/></a>
+        <a href='https://www.facebook.com/abhi.honnapure' target='_blank'><FaFacebookF/></a>
       </div>
       <div className='footer__copyright'>
-        <small>&copy; EGATOR Tutorials.All rights reserved.</small>
+        <small>&copy; Abhishek Honnapure - 2022 . Source code under MIT License</small>
       </div>
     </footer>
   )

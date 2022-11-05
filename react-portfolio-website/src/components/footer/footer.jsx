@@ -23,11 +23,11 @@ const Footer = () => {
         <li><a href='#contact'>Contact</a></li>
       </ul>
       <div className='footer__socials'>
-        <a href='https://www.linkedin.com/in/abhishek-honnapure-547636232/' target='_blank'><GrLinkedinOption/></a>
-        <a href='https://github.com/its-abhishek' target='_blank'><FaGithub/></a>
-        <a href='https://www.instagram.com/_its__abhi__7/' target='_blank'><FiInstagram/></a>
-        <a href='https://twitter.com/honnapure' target='_blank'><SiTwitter/></a>
-        <a href='https://www.facebook.com/abhi.honnapure' target='_blank'><FaFacebookF/></a>
+        <a href='https://www.linkedin.com/in/abhishek-honnapure-547636232/' target='_blank' rel="noreferrer"><GrLinkedinOption/></a>
+        <a href='https://github.com/its-abhishek' target='_blank' rel="noreferrer"><FaGithub/></a>
+        <a href='https://www.instagram.com/_its__abhi__7/' target='_blank' rel="noreferrer"><FiInstagram/></a>
+        <a href='https://twitter.com/honnapure' target='_blank' rel="noreferrer"><SiTwitter/></a>
+        <a href='https://www.facebook.com/abhi.honnapure' target='_blank' rel="noreferrer"><FaFacebookF/></a>
       </div>
       <div className='footer__copyright'>
         <small>&copy; Abhishek Honnapure - 2022 . Source code under MIT License</small>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {TfiTwitter} from 'react-icons/tfi'
+import {ImLocation2} from 'react-icons/im'
 import {BsInstagram} from 'react-icons/bs'
 import {AiOutlineSend} from 'react-icons/ai'
 import { useRef } from 'react';
@@ -37,10 +37,10 @@ const Contact = () => {
               <a href='https://www.instagram.com/_its__abhi__7/' target='_blank'>Send a message</a>
             </article>
             <article className='contact__option'>
-              <TfiTwitter className='contact__option-icon'/>
-              <h5>Twitter</h5>
-              <h5>@honnapure</h5>
-              <a href='https://twitter.com/honnapure/following' target='_blank'>Send a message</a>
+              <ImLocation2 className='contact__option-icon'/>
+              <h5>Location</h5>
+              <h5>Bangalore, India</h5>
+              <a href='https://goo.gl/maps/urfTie1z58rKJRys5' target='_blank'>Visit Me</a>
             </article>
           </div>
           {/*End Of Contact section*/}

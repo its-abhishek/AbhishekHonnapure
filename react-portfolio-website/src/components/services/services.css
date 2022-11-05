@@ -50,6 +50,13 @@
     font-size: 0.9rem;
 }
 
+.service__head-icons {
+    position: relative;
+    top: 5px;
+    right: 0.5rem;
+    font-size: 1.5rem;
+}
+
 /* ================== MEDIA QUERIES (MEDIUM DEVICES)================ */
 
 @media screen and (max-width: 1024px) {

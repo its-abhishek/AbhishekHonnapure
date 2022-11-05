@@ -48,7 +48,7 @@ const Contact = () => {
             <input type='text' name='name' placeholder='Full Name' required/>
             <input type='email' name='email' placeholder='Email' required/>
             <input type='subject' name='subject' placeholder='Subject' required/>
-            <textarea type='message' name='message' rows='7' placeholder='Massage' required/>
+            <textarea type='message' name='message' rows='8' placeholder='Massage' required/>
             <button type='submit' className='btn btn-primary'>Send Massage<AiOutlineSend className='message-icon'/></button>
           </form>
       </div>

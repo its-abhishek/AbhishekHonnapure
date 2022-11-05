@@ -23,6 +23,7 @@ header {
  .header__socials {
     display: flex;
     flex-direction: column;
+    font-size: 1.2rem;
     align-items: center;
     gap: 0.8rem;
     position: absolute;

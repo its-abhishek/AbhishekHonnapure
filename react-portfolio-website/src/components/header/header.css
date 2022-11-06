@@ -170,32 +170,32 @@ header {
 
    .header__container-text1 {
         top: 10rem;
-        left: 0;
+        left: 3rem;
    }
 
    .header__container-text2 {
         top: 13rem;
-        left: 0;
+        left: 3rem;
    }
 
    .header__container-text3 {
         top: 18rem;
-        left: 0;
+        left: 3rem;
    }
 
    .header__container-text4 {
         top: 20.5rem;
-        left: 0;
+        left: 3rem;
    }
 
    .header__container-text5 {
         top: 24rem;
-        left: 0;
+        left: 3rem;
    }
 
    .cta {
         top: 24rem;
-        left: 0;
+        left: 3rem;
    }
 
    .header__socials {

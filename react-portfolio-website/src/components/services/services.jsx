@@ -63,23 +63,27 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p> Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p> <span style={{fontWeight:"bold"}}>Equinox - The Space Club, PESU</span><br/><span>FullStack WebDeveloper</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> October 2022 - Present</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p> <span style={{fontWeight:"bold"}}>Weal Health Club, PESU</span><br/><span>FullStack WebDeveloper</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> October 2022 - Present</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p> <span style={{fontWeight:"bold"}}>AikyaYouth Club, PESU</span><br/><span>FullStack WebDeveloper</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> July 2022 - Present</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p> <span style={{fontWeight:"bold"}}>Shunya Math Club, PESU</span><br/><span>FullStack WebDeveloper</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> June 2022 - Present</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p> <span style={{fontWeight:"bold"}}>Quotient Quiz Club, PESU</span><br/><span>Organizing Team Member</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> April 2022 - Present</span> </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p> <span style={{fontWeight:"bold"}}>Rotaract Club, PESU</span><br/><span>Event Staff</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> April 2022 - Present</span> </p>
             </li>
           </ul>
         </article>

@@ -5,6 +5,8 @@ import { FaGraduationCap } from "react-icons/fa";
 import { MdOutlineWork } from "react-icons/md";
 import { MdVolunteerActivism } from "react-icons/md";
 import { BiCalendar } from "react-icons/bi";
+import {HiBookOpen} from "react-icons/hi"
+import {HiOutlineBadgeCheck} from "react-icons/hi"
 
 const Services = () => {
   return (
@@ -15,75 +17,75 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3><MdOutlineWork className="service__head-icons"/>Work</h3>
+            <h3><MdOutlineWork className="service__head-icons" />Experience</h3>
           </div>
 
           <ul className="service__list">
-          <li>
-              <BiCheck className="service__list-icon" />
-              <p> <span style={{fontWeight:"bold"}}>Ninja Entrepreneur</span> <br/>Coding Ninjas<br/><span style={{fontWeight:"bold"}}>Internship</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> April 2022 - September 2022</span></p>
+            <li>
+              <HiOutlineBadgeCheck className="service__list-icon" />
+              <p> <span style={{ fontWeight: "bold" }}>Ninja Entrepreneur</span> <br />Coding Ninjas<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> April 2022 - September 2022</span></p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
-              <p> <span style={{fontWeight:"bold"}}>Campus Ambassador</span> <br/>Acmegrade<br/><span style={{fontWeight:"bold"}}>Internship</span><br/><span style={{opacity:"0.7"}}><BiCalendar/> Jully 2022 - September 2022</span></p>
+              <HiOutlineBadgeCheck className="service__list-icon" />
+              <p> <span style={{ fontWeight: "bold" }}>Campus Ambassador</span> <br />Acmegrade<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> Jully 2022 - September 2022</span></p>
             </li>
           </ul>
         </article>
         {/* end of UI/UX */}
         <article className="service" /*style={{width:"25rem"}}*/>
           <div className="service__head">
-            <h3><FaGraduationCap className="service__head-icons"/>Education</h3>
+            <h3><FaGraduationCap className="service__head-icons" />Education</h3>
           </div>
 
           <ul className="service__list">
             <li>
-              <BiCheck className="service__list-icon" />
-              <p> <span style={{fontWeight:"bold"}}>B.Tech, CSE </span><br/> PES University,<br/> Bangalore <br/><span style={{opacity: "0.7"}}><BiCalendar/> 2021 - Present</span> </p>
+              <HiBookOpen className="service__list-icon" style={{fontSize:"1.5rem"}}/>
+              <p> <span style={{ fontWeight: "bold" }}>B.Tech, CSE </span><br /> PES University,<br /> Bangalore <br /><span style={{ opacity: "0.7" }}><BiCalendar /> 2021 - Present</span> </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
-              <p> <span style={{fontWeight:"bold"}}>Inter 1st and 2nd year</span> <br/>Sri Chaitanya Junior College, Hyderabad<br/><span style={{opacity: "0.7"}}><BiCalendar/> 2019 - 2021</span></p>
+              <HiBookOpen className="service__list-icon" style={{fontSize:"2rem"}}/>
+              <p> <span style={{ fontWeight: "bold" }}>Inter 1st and 2nd year</span> <br />Sri Chaitanya Junior College, Hyderabad<br /><span style={{ opacity: "0.7" }}><BiCalendar /> 2019 - 2021</span></p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
-              <p> <span style={{fontWeight:"bold"}}>5th-10th Grad</span> <br/> Raveendra High School,<br/> Bidar<br/><span style={{opacity: "0.7"}}><BiCalendar/> 2012 - 2018</span></p>
+            <HiBookOpen className="service__list-icon" style={{fontSize:"1.5rem"}}/>
+              <p> <span style={{ fontWeight: "bold" }}>5th-10th Grad</span> <br /> Raveendra High School,<br /> Bidar<br /><span style={{ opacity: "0.7" }}><BiCalendar /> 2012 - 2018</span></p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
-              <p> <span style={{fontWeight:"bold"}}>1st-4th Grad</span> <br/> Ekalavya Primary School,<br/> Bidar<br/><span style={{opacity: "0.7"}}><BiCalendar/> 2008 - 2012</span></p>
+              <HiBookOpen className="service__list-icon" style={{fontSize:"1.5rem"}}/>
+              <p> <span style={{ fontWeight: "bold" }}>1st-4th Grad</span> <br /> Ekalavya Primary School,<br /> Bidar<br /><span style={{ opacity: "0.7" }}><BiCalendar /> 2008 - 2012</span></p>
             </li>
           </ul>
         </article>
         {/* end of web-dev */}
         <article className="service">
           <div className="service__head">
-            <h3><MdVolunteerActivism className="service__head-icons"/>Volunteering</h3>
+            <h3><MdVolunteerActivism className="service__head-icons" />Volunteering</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p> <span style={{fontWeight:"bold"}}>Equinox - The Space Club, PESU</span><br/><span>FullStack WebDeveloper</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> October 2022 - Present</span> </p>
+              <p> <span style={{ fontWeight: "bold" }}>Equinox - The Space Club, PESU</span><br /><span>FullStack WebDeveloper</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> October 2022 - Present</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> <span style={{fontWeight:"bold"}}>Weal Health Club, PESU</span><br/><span>FullStack WebDeveloper</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> October 2022 - Present</span> </p>
+              <p> <span style={{ fontWeight: "bold" }}>Weal Health Club, PESU</span><br /><span>FullStack WebDeveloper</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> October 2022 - Present</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> <span style={{fontWeight:"bold"}}>AikyaYouth Club, PESU</span><br/><span>FullStack WebDeveloper</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> July 2022 - Present</span> </p>
+              <p> <span style={{ fontWeight: "bold" }}>AikyaYouth Club, PESU</span><br /><span>FullStack WebDeveloper</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> July 2022 - Present</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> <span style={{fontWeight:"bold"}}>Shunya Math Club, PESU</span><br/><span>FullStack WebDeveloper</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> June 2022 - Present</span> </p>
+              <p> <span style={{ fontWeight: "bold" }}>Shunya Math Club, PESU</span><br /><span>FullStack WebDeveloper</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> June 2022 - Present</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> <span style={{fontWeight:"bold"}}>Quotient Quiz Club, PESU</span><br/><span>Organizing Team Member</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> April 2022 - Present</span> </p>
+              <p> <span style={{ fontWeight: "bold" }}>Quotient Quiz Club, PESU</span><br /><span>Organizing Team Member</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> April 2022 - Present</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> <span style={{fontWeight:"bold"}}>Rotaract Club, PESU</span><br/><span>Event Staff</span><br/><span style={{opacity: "0.7"}}><BiCalendar/> April 2022 - Present</span> </p>
+              <p> <span style={{ fontWeight: "bold" }}>Rotaract Club, PESU</span><br /><span>Event Staff</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> April 2022 - Present</span> </p>
             </li>
           </ul>
         </article>

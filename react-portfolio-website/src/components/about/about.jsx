@@ -1,9 +1,6 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
   return (
@@ -14,32 +11,15 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={ME} alt="About Image"/>
+            <img src={ME} alt="About Image" />
           </div>
         </div>
 
         <div className='about__content'>
-          <div className='about__cards'>
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-            <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
-            <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>20+ Completed</small>
-            </article>
-          </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sodales felis.
-            Ut volutpat ornare risus. Aliquam fermentum ullamcorper augue non pharetra. Etiam
-            auctor odio id euismod aliquet. Mauris eleifend.
+           I am a second year undergraduate student of the <span style={{color:"#4db5ff"}}>Department</span> of Computer Science and Engineering, <span style={{color:"#4db5ff"}}>PES University, Banglore</span>, India.<br/> I was born in Bidar, Karnataka.<br/><br/>
+
+I was fortunate enough to know from a young age that I wanted to be an engineer. The engineering way of thinking came naturally to me. What I didn't know was what type of engineer I wanted to be. When push came to shove, I chose Software Engineering.I wish to utilize my skills to do projects, entrepreneurship and to reach people in different platforms. I always look for platforms to develop my skill set and use the same for collaborative development.
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>

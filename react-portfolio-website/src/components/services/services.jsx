@@ -17,7 +17,7 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3><MdOutlineWork className="service__head-icons" />Experience</h3>
+            <h3><MdOutlineWork className="service__head-icons" /> My Works</h3>
           </div>
 
           <ul className="service__list">

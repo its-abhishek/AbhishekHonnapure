@@ -11,7 +11,7 @@
     gap: 1.2rem;
 }
 .contact__option {
-    background: var(--color-bg-varient);
+    background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -21,7 +21,7 @@
 
 .contact__option:hover {
     background: transparent;
-    border-color: var(--color-primary-varient);
+    border-color: var(--color-primary-variant);
 }
 
 .contact__option-icon {
@@ -48,7 +48,7 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-varient);
+    border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
 }

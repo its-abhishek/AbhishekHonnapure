@@ -2,13 +2,18 @@ import React from "react";
 import "./experience.css";
 import { SiHtml5} from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
-import { IoLogoJavascript} from "react-icons/io";
+import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoPython } from "react-icons/io";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiVisualstudiocode } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
-import {SiCodepen } from "react-icons/si";
+import { SiCodepen } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { DiNodejsSmall } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiNetlify, SiVercel } from "react-icons/si";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faC } from '@fortawesome/free-solid-svg-icons';
 import { faTools } from '@fortawesome/free-solid-svg-icons';
@@ -68,6 +73,34 @@ const Experience = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+            <article className="experience_details">
+              <SiMongodb className="experience_details-icon"/>
+              <div>
+                <h4>MongoDB</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <DiNodejsSmall className="experience_details-icon"/>
+              <div>
+                <h4>NodeJS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiExpress className="experience_details-icon"/>
+              <div>
+                <h4>ExpressJS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <TbBrandNextjs className="experience_details-icon"/>
+              <div>
+                <h4>NextJS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
           </div>
         </div>
         <div className="experience_backend">
@@ -101,6 +134,20 @@ const Experience = () => {
               <SiCodepen className="experience_details-icon"/>
               <div>
                 <h4>Codepen</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiNetlify className="experience_details-icon"/>
+              <div>
+                <h4>Netlify</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiVercel className="experience_details-icon"/>
+              <div>
+                <h4>Vercel</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

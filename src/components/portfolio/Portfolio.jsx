@@ -4,8 +4,8 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+// import IMG5 from '../../assets/portfolio5.png'
+// import IMG6 from '../../assets/portfolio6.jpg'
 
 // Don't use the images in the production
 
@@ -13,44 +13,30 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Cripto Currency Dashboard and Final Visualization',
-    github: 'https://swiperjs.com/demos',
-    demo: 'https://search.yahoo.com/search?fr=mcafee&type=E211US885G0&p=swiperjs'
+    title: 'Generating a Unique QR Code using Python',
+    github: 'https://github.com/its-abhishek/Python-Project',
+    demo: 'https://github.com/its-abhishek/Python-Project',
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Cripto Currency Dashboard and Final Visualization',
-    github: 'https://swiperjs.com/demos',
-    demo: 'https://search.yahoo.com/search?fr=mcafee&type=E211US885G0&p=swiperjs'
+    title: 'Woring Process of ATM Machine Using C',
+    github: 'https://github.com/its-abhishek/C-Projects',
+    demo: 'https://github.com/its-abhishek/C-Projects'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Cripto Currency Dashboard and Final Visualization',
-    github: 'https://swiperjs.com/demos',
-    demo: 'https://search.yahoo.com/search?fr=mcafee&type=E211US885G0&p=swiperjs'
+    title: 'Note taking app built using MERN Stack',
+    github: 'https://github.com/its-abhishek/mern-project',
+    demo: 'https://github.com/its-abhishek/mern-project'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Cripto Currency Dashboard and Final Visualization',
-    github: 'https://swiperjs.com/demos',
-    demo: 'https://search.yahoo.com/search?fr=mcafee&type=E211US885G0&p=swiperjs'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Cripto Currency Dashboard and Final Visualization',
-    github: 'https://swiperjs.com/demos',
-    demo: 'https://search.yahoo.com/search?fr=mcafee&type=E211US885G0&p=swiperjs'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Cripto Currency Dashboard and Final Visualization',
-    github: 'https://swiperjs.com/demos',
-    demo: 'https://search.yahoo.com/search?fr=mcafee&type=E211US885G0&p=swiperjs'
+    title: 'Static E-Commerce website',
+    github: 'https://github.com/its-abhishek/equinix-recruitment',
+    demo: 'https://github.com/its-abhishek/equinix-recruitment'
   },
 ]
 

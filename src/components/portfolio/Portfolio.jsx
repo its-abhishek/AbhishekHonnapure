@@ -20,7 +20,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Woring Process of ATM Machine Using C',
+    title: 'Working Process of ATM Machine Using C',
     github: 'https://github.com/its-abhishek/C-Projects',
     demo: 'https://github.com/its-abhishek/C-Projects'
   },

@@ -7,7 +7,7 @@ import { SiTwitter } from 'react-icons/si'
 
 const Footer = () => {
   return (
-    <footer data-aos="flip-down">
+    <footer data-aos="flip-down" data-aos-duration="1500">
       <a href='#' className='footer__logo'>ABHISHEK HONNAPURE</a>
       <div className='sub-text'>
         <small>Student at PES University, Bangalore, Karnataka, India</small>

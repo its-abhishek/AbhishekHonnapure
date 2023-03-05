@@ -1,6 +1,6 @@
 .services__container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
 
@@ -64,16 +64,17 @@
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
+
     .service {
         height: auto;
     }
- }
- 
- /* ================== MEDIA QUERIES (SMALL DEVICES)================ */
- 
- @media screen and (max-width: 600px) {
+}
+
+/* ================== MEDIA QUERIES (SMALL DEVICES)================ */
+
+@media screen and (max-width: 600px) {
     .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
- }
+}

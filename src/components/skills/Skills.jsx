@@ -1,5 +1,5 @@
 import React from "react";
-import "./experience.css";
+import "./skills.css";
 import { SiHtml5} from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";

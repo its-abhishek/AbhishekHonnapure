@@ -1,5 +1,5 @@
 import React from "react";
-import "./services.css";
+import "./education.css";
 import { BiCheck } from "react-icons/bi";
 import { FaGraduationCap } from "react-icons/fa";
 import { MdOutlineWork } from "react-icons/md";

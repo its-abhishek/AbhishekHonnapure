@@ -32,7 +32,7 @@ const Header = () => {
               <a href="#portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="#testimonials">Testimonials</a>
+              <a href="#testimonials">Awards</a>
             </li>
             <li>
               <a href="#contact">Contact</a>

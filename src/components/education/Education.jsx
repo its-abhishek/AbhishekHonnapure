@@ -1,12 +1,9 @@
 import React from "react";
 import "./education.css";
-import { BiCheck } from "react-icons/bi";
+import { BiCheck, BiCalendar  } from "react-icons/bi";
 import { FaGraduationCap } from "react-icons/fa";
-import { MdOutlineWork } from "react-icons/md";
-import { MdVolunteerActivism } from "react-icons/md";
-import { BiCalendar } from "react-icons/bi";
-import {HiBookOpen} from "react-icons/hi"
-import {HiOutlineBadgeCheck} from "react-icons/hi"
+import { MdOutlineWork, MdVolunteerActivism } from "react-icons/md";
+import { HiBookOpen, HiOutlineBadgeCheck } from "react-icons/hi"
 
 const Services = () => {
   return (

@@ -8,11 +8,13 @@ import { HiBookOpen, HiOutlineBadgeCheck } from "react-icons/hi"
 const Services = () => {
   return (
     <section id="services">
-      <h5>My Qualifications & Experience</h5>
-      <h2>Experience</h2>
+      <h5 data-aos="fade-down">My Qualifications & Experience</h5>
+      <h2 data-aos="fade-down">Experience</h2>
 
       <div className="container services__container">
-        <article className="service">
+        <article data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500" className="service">
           <div className="service__head">
             <h3><MdOutlineWork className="service__head-icons" /> My Works</h3>
           </div>
@@ -29,7 +31,9 @@ const Services = () => {
           </ul>
         </article>
         {/* end of UI/UX */}
-        <article className="service" /*style={{width:"25rem"}}*/>
+        <article data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000" className="service" /*style={{width:"25rem"}}*/>
           <div className="service__head">
             <h3><FaGraduationCap className="service__head-icons" />Education</h3>
           </div>
@@ -54,7 +58,9 @@ const Services = () => {
           </ul>
         </article>
         {/* end of web-dev */}
-        <article className="service">
+        <article data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" className="service">
           <div className="service__head">
             <h3><MdVolunteerActivism className="service__head-icons" />Volunteering</h3>
           </div>

@@ -59,7 +59,7 @@ const Header = () => {
         </div>
         <CTA />
         <HeaderSocials />
-        <div className="me">
+        <div data-aos="zoom-in-left" className="me">
           <img src={ME} alt="me" />
         </div>
         <a href="#contact" className="scroll__down">

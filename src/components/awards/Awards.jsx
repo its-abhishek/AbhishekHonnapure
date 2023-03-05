@@ -53,8 +53,8 @@ const data = [
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Compitation and Events</h5>
-      <h2>Awards</h2>
+      <h5>Volunteered Events and Hackathons</h5>
+      <h2>Compitation and Events</h2>
 
       <Swiper spaceBetween={30}
         centeredSlides={true}

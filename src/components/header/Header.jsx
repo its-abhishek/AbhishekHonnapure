@@ -8,7 +8,7 @@ import { BsMouse } from "react-icons/bs";
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
+      <div data-aos="zoom-in-down" className="container header__container">
         <div className="header__navbar">
           <ul className="permalinks">
             <div className="header__main">
@@ -39,13 +39,13 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="header__container-text1">
+        <div data-aos="zoom-in-right" className="header__container-text1">
           <h1>Hello I'm</h1>
         </div>
-        <div className="header__container-text2">
+        <div data-aos="zoom-in-right" className="header__container-text2">
           <h1>Abhishek</h1>
         </div>
-        <div className="header__container-text3">
+        <div data-aos="zoom-in-right" className="header__container-text3">
           <h5 className="text-light">Fullstack Developer</h5>
         </div>
         <div className="header__container-text4">
@@ -59,7 +59,7 @@ const Header = () => {
         </div>
         <CTA />
         <HeaderSocials />
-        <div data-aos="zoom-in-left" className="me">
+        <div data-aos="fade-left" className="me">
           <img src={ME} alt="me" />
         </div>
         <a href="#contact" className="scroll__down">

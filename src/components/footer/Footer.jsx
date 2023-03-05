@@ -7,7 +7,7 @@ import { SiTwitter } from 'react-icons/si'
 
 const Footer = () => {
   return (
-    <footer data-aos="flip-up">
+    <footer data-aos="flip-down">
       <a href='#' className='footer__logo'>ABHISHEK HONNAPURE</a>
       <div className='sub-text'>
         <small>Student at PES University, Bangalore, Karnataka, India</small>
@@ -18,7 +18,7 @@ const Footer = () => {
         <li><a href='#experience'>Skills</a></li>
         <li><a href='#services'>Experience</a></li>
         <li><a href='#portfolio'>Portfolio</a></li>
-        <li><a href='#testimonials'>Testimonials</a></li>
+        <li><a href='#testimonials'>Awards</a></li>
         <li><a href='#contact'>Contact</a></li>
       </ul>
       <div className='footer__socials'>

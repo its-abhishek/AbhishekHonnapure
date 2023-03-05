@@ -29,9 +29,28 @@ html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
-    display: none;
-}
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: none;
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 10px;
+    height: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary); 
+  }
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -39,6 +58,7 @@ body {
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture.png);
+    overflow-x: hidden;
 }
 
 /* ============ GENERAL STYLES ============= */

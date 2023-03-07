@@ -6,6 +6,7 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.png'
+import IMG7 from '../../assets/portfolio7.png'
 
 const data = [
   {
@@ -49,6 +50,13 @@ const data = [
     title: 'Weal - The Health Clube website',
     github: 'https://github.com/its-abhishek/Website2023/tree/main',
     demo: 'https://github.com/its-abhishek/Website2023/tree/main'
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'React - Personal Portfolio website',
+    github: 'https://github.com/its-abhishek/Website2023/tree/main',
+    demo: 'https://abhishek-honnapure.vercel.app/'
   },
 ]
 

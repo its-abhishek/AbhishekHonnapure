@@ -91,7 +91,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 2rem;
-  bottom: 9rem;
+  bottom: 12rem;
 }
 
 .header__socials::after {
@@ -139,7 +139,7 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 75vh;
+    height: 65vh;
   }
 
   .header__navbar {
@@ -161,51 +161,56 @@ header {
   .me {
     margin-top: 1.5rem;
     text-align: center;
-    width: 20rem;
-    height: 23rem;
+    width: 18rem;
+    height: 21rem;
     position: absolute;
-    left: calc(90% - 15rem);
+    left: calc(90% - 16rem);
   }
 
   .header__container-text1 {
+    font-size: 15px;
     top: 10rem;
-    left: 3rem;
+    left: 4rem;
   }
 
   .header__container-text2 {
+    font-size: 20px;
     top: 13rem;
-    left: 3rem;
+    left: 4rem;
   }
 
   .header__container-text3 {
+    font-size: 11px;
     top: 18rem;
-    left: 3rem;
+    left: 4rem;
   }
 
   .header__container-text4 {
+    font-size: 13px;
     top: 20.5rem;
-    left: 3rem;
+    left: 4rem;
   }
 
   .header__container-text5 {
+    font-size: 15px;
     top: 24rem;
-    left: 3rem;
+    left: 4rem;
   }
 
   .cta {
     top: 24rem;
-    left: 3rem;
+    left: 4rem;
   }
 
   .header__socials {
-    top: 15rem;
+    top: 12rem;
     left: 5px;
+    font-size: 25px;
+    /* overflow: hidden; */
   }
 
   .scroll__down {
-    position: absolute;
-    right: -4rem;
-    bottom: 13rem;
+    display: none;
   }
 }
 
@@ -219,31 +224,36 @@ header {
   .me {
     margin-top: -1.5rem;
     left: 20px;
-    width: 20rem;
-    height: 23rem;
+    width: 18rem;
+    height: 21rem;
   }
 
   .header__container-text1 {
+    font-size: 20px;
     top: 25rem;
     left: 0;
   }
 
   .header__container-text2 {
+    font-size: 25px;
     top: 28rem;
     left: 0;
   }
 
   .header__container-text3 {
+    font-size: 18px;
     top: 33rem;
     left: 0;
   }
 
   .header__container-text4 {
+    font-size: 15px;
     top: 36.5rem;
     left: 0;
   }
 
   .header__container-text5 {
+    font-size: 18px;
     top: 41rem;
     left: 0;
   }

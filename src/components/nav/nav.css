@@ -25,9 +25,11 @@ nav a {
 
 nav a:hover {
     background: rgb(0, 0, 0, 0.3);
+    border-radius: 50%;
 }
 
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
+    border-radius: 50%;
 }

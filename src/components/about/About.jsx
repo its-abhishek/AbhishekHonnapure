@@ -9,13 +9,13 @@ const About = () => {
       <h2 data-aos="flip-down">About Me</h2>
 
       <div className='container about__container'>
-        <div data-aos="fade-right" className='about__me'>
+        <div data-aos="fade-up" className='about__me'>
           <div className='about__me-image'>
             <img src={ME} alt="About Image" />
           </div>
         </div>
 
-        <div data-aos="fade-left" className='about__content'>
+        <div data-aos="fade-up" className='about__content'>
           <p>
             I am a second year undergraduate student of the <span style={{ color: "#4db5ff" }}>Department</span> of Computer Science and Engineering, <span style={{ color: "#4db5ff" }}>PES University, Banglore</span>, India.<br /> I was born in Bidar, Karnataka.<br /><br />
 

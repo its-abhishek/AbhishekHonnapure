@@ -39,13 +39,13 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div data-aos="zoom-in-right" className="header__container-text1">
+        <div className="header__container-text1">
           <h1>Hello I'm</h1>
         </div>
-        <div data-aos="zoom-in-right" className="header__container-text2">
+        <div className="header__container-text2">
           <h1>Abhishek</h1>
         </div>
-        <div data-aos="zoom-in-right" className="header__container-text3">
+        <div data-aos="zoom-in-up" className="header__container-text3">
           <h5 className="text-light" style={{ border: "2px solid #4db5ff", borderRadius: "5px", padding: "2px" }} >Fullstack Developer</h5>
         </div>
         <div className="header__container-text4">
@@ -59,7 +59,7 @@ const Header = () => {
         </div>
         <CTA />
         <HeaderSocials />
-        <div data-aos="fade-left" className="me">
+        <div className="me">
           <img src={ME} alt="me" />
         </div>
         <a href="#contact" className="scroll__down">

@@ -25,7 +25,7 @@ const Experience = () => {
       <h5 data-aos="fade-down">What Skills I Have</h5>
       <h2 data-aos="fade-down">Techincal Skills</h2>
       <div className="container experience__container">
-        <div data-aos="fade-right"
+        <div data-aos="fade-up"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine" className="experience_frontend">
           <div className="font-div">
@@ -105,7 +105,7 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        <div data-aos="fade-left"
+        <div data-aos="fade-up"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine" className="experience_backend">
           <div className="font-div">

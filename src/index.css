@@ -135,7 +135,6 @@ img {
 @media screen and (max-width: 600px) {
      .container {
         width: var(--container-width-sm);
-        overflow-x: hidden;
      }
      section > h2 {
         margin-bottom: 2rem;

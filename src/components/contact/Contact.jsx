@@ -18,9 +18,9 @@ const Contact = () => {
   };
 
   return (
-    <section data-aos="flip-left"
+    <section data-aos="zoom-in-up"
       data-aos-easing="ease-out-cubic"
-      data-aos-duration="2000" id='contact'>
+      data-aos-duration="1000" id='contact'>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 

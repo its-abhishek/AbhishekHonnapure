@@ -55,7 +55,7 @@ const data = [
     id: 7,
     image: IMG7,
     title: 'React - Personal Portfolio website',
-    github: 'https://github.com/its-abhishek/Website2023/tree/main',
+    github: 'https://github.com/its-abhishek/AbhishekHonnapure',
     demo: 'https://abhishek-honnapure.vercel.app/'
   },
 ]

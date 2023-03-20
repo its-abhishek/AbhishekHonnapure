@@ -22,6 +22,14 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <HiOutlineBadgeCheck className="service__list-icon" />
+              <p> <span style={{ fontWeight: "bold" }}>FullStack Developer</span> <br />PESU Venture Labs<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> March 2023 - Current</span></p>
+            </li>
+            <li>
+              <HiOutlineBadgeCheck className="service__list-icon" />
+              <p> <span style={{ fontWeight: "bold" }}>FullStack Developer</span> <br />Abhaya Secure<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> March 2023 - Current</span></p>
+            </li>
+            <li>
+              <HiOutlineBadgeCheck className="service__list-icon" />
               <p> <span style={{ fontWeight: "bold" }}>Ninja Entrepreneur</span> <br />Coding Ninjas<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> April 2022 - September 2022</span></p>
             </li>
             <li>

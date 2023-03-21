@@ -1,7 +1,7 @@
 import React from "react";
 import "./skills.css";
 import { SiHtml5 } from "react-icons/si";
-import { SiCss3 } from "react-icons/si";
+import { SiCss3, SiTailwindcss } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoPython } from "react-icons/io";
 import { RiReactjsLine } from "react-icons/ri";
@@ -51,6 +51,13 @@ const Experience = () => {
               <SiCss3 className="experience_details-icon" />
               <div>
                 <h4>CSS3</h4>
+                <small className="text-light">Experience</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiTailwindcss className="experience_details-icon" />
+              <div>
+                <h4>Tailwind CSS</h4>
                 <small className="text-light">Experience</small>
               </div>
             </article>

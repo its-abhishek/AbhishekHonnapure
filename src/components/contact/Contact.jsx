@@ -35,8 +35,8 @@ const Contact = () => {
           <article className='contact__option'>
             <BsInstagram className='contact__option-icon' />
             <h5>Instagram</h5>
-            <h5>@_its__abhi__7</h5>
-            <a href='https://www.instagram.com/_its__abhi__7/' target='_blank' rel="noreferrer">Send a message</a>
+            <h5>@abhishek_honnapure</h5>
+            <a href='https://www.instagram.com/abhishek_honnapure/' target='_blank' rel="noreferrer">Send a message</a>
           </article>
           <article className='contact__option'>
             <ImLocation2 className='contact__option-icon' />

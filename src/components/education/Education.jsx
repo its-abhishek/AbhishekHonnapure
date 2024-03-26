@@ -22,19 +22,19 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <HiOutlineBadgeCheck className="service__list-icon" />
-              <p> <span style={{ fontWeight: "bold" }}>FullStack Developer</span> <br />PESU Venture Labs<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> March 2023 - December 2023</span></p>
+              <p> <span style={{ fontWeight: "bold" }}>FullStack Developer</span> <br />PESU Venture Labs<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> Mar 2023 - Dec 2023</span></p>
             </li>
             <li>
               <HiOutlineBadgeCheck className="service__list-icon" />
-              <p> <span style={{ fontWeight: "bold" }}>FullStack Developer</span> <br />Abhaya Secure<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> March 2023 - December 2023</span></p>
+              <p> <span style={{ fontWeight: "bold" }}>FullStack Developer</span> <br />Abhaya Secure<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> Mar 2023 - Dece 2023</span></p>
             </li>
             <li>
               <HiOutlineBadgeCheck className="service__list-icon" />
-              <p> <span style={{ fontWeight: "bold" }}>Ninja Entrepreneur</span> <br />Coding Ninjas<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> April 2022 - September 2022</span></p>
+              <p> <span style={{ fontWeight: "bold" }}>Ninja Entrepreneur</span> <br />Coding Ninjas<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> Apr 2022 - Sept 2022</span></p>
             </li>
             <li>
               <HiOutlineBadgeCheck className="service__list-icon" />
-              <p> <span style={{ fontWeight: "bold" }}>Campus Ambassador</span> <br />Acmegrade<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> Jully 2022 - September 2022</span></p>
+              <p> <span style={{ fontWeight: "bold" }}>Campus Ambassador</span> <br />Acmegrade<br /><span style={{ fontWeight: "bold" }}>Internship</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> Jul 2022 - Sept 2022</span></p>
             </li>
           </ul>
         </article>
@@ -74,29 +74,29 @@ const Services = () => {
           </div>
 
           <ul className="service__list">
-            <li>
+            {/* <li>
               <BiCheck className="service__list-icon" />
               <p> <span style={{ fontWeight: "bold" }}>Equinox - The Space Club, PESU</span><br /><span>FullStack WebDeveloper</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> October 2022 - Present</span> </p>
+            </li> */}
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p> <span style={{ fontWeight: "bold" }}>Weal Health Club, PESU</span><br /><span>FullStack WebDeveloper</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> Oct 2022 - May 2023</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> <span style={{ fontWeight: "bold" }}>Weal Health Club, PESU</span><br /><span>FullStack WebDeveloper</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> October 2022 - Present</span> </p>
+              <p> <span style={{ fontWeight: "bold" }}>AikyaYouth Club, PESU</span><br /><span>FullStack WebDeveloper</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> Jul 2022 - Mar 2023</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> <span style={{ fontWeight: "bold" }}>AikyaYouth Club, PESU</span><br /><span>FullStack WebDeveloper</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> July 2022 - Present</span> </p>
+              <p> <span style={{ fontWeight: "bold" }}>Shunya Math Club, PESU</span><br /><span>FullStack WebDeveloper</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> Jun 2022 - Mar 2023</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> <span style={{ fontWeight: "bold" }}>Shunya Math Club, PESU</span><br /><span>FullStack WebDeveloper</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> June 2022 - Present</span> </p>
+              <p> <span style={{ fontWeight: "bold" }}>Quotient Quiz Club, PESU</span><br /><span>Organizing Team Member</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> Apr 2022 - Dec 2023</span> </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p> <span style={{ fontWeight: "bold" }}>Quotient Quiz Club, PESU</span><br /><span>Organizing Team Member</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> April 2022 - Present</span> </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p> <span style={{ fontWeight: "bold" }}>Rotaract Club, PESU</span><br /><span>Event Staff</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> April 2022 - Present</span> </p>
+              <p> <span style={{ fontWeight: "bold" }}>Rotaract Club, PESU</span><br /><span>Event Staff</span><br /><span style={{ opacity: "0.7" }}><BiCalendar /> Apr 2022 - May 2022</span> </p>
             </li>
           </ul>
         </article>

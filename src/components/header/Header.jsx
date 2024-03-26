@@ -50,7 +50,7 @@ const Header = () => {
         </div>
         <div className="header__container-text4">
           <h5>
-            A tech enthisiast and interested in reaching peep's<br></br> to
+            A tech enthusiast and interested in reaching peep's<br></br> to
             share thoughts and learn somthing new.
           </h5>
         </div>

@@ -51,7 +51,7 @@ const Header = () => {
         <div className="header__container-text4">
           <h5>
             A tech enthusiast and interested in reaching peep's<br></br> to
-            share thoughts and learn somthing new.
+            share thoughts and learn something new.
           </h5>
         </div>
         <div className="header__container-text5">

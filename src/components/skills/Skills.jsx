@@ -140,35 +140,35 @@ const Experience = () => {
               <FaGitAlt className="experience_details-icon" />
               <div>
                 <h4>Git</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="experience_details">
               <FaGithub className="experience_details-icon" />
               <div>
                 <h4>Github</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="experience_details">
               <SiCodepen className="experience_details-icon" />
               <div>
                 <h4>Codepen</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="experience_details">
               <SiNetlify className="experience_details-icon" />
               <div>
                 <h4>Netlify</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="experience_details">
               <SiVercel className="experience_details-icon" />
               <div>
                 <h4>Vercel</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="experience_details">

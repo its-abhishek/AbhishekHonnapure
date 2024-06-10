@@ -20,6 +20,7 @@ import { faTools } from '@fortawesome/free-solid-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { LuBrainCircuit } from "react-icons/lu";
 import { FaAws } from "react-icons/fa";
+import { SiPostgresql } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -116,6 +117,13 @@ const Experience = () => {
               <LuBrainCircuit className="experience_details-icon" />
               <div>
                 <h4>Machine Learning</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiPostgresql className="experience_details-icon" />
+              <div>
+                <h4>PostgreSql</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

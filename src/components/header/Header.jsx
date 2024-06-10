@@ -45,7 +45,7 @@ const Header = () => {
         <div className="header__container-text2">
           <h1>Abhishek</h1>
         </div>
-        <div data-aos="zoom-in-up" className="header__container-text3">
+        <div className="header__container-text3"> {/*data-aos="zoom-in-up"*/}
           <h5 className="text-light" style={{ border: "2px solid #4db5ff", borderRadius: "5px", padding: "2px" }} >Fullstack Developer</h5>
         </div>
         <div className="header__container-text4">

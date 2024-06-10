@@ -106,11 +106,11 @@ header {
 
 .me {
   /* background: linear-gradient(var(--color-primary),transparent); */
-  width: 25rem;
-  height: 27rem;
+  width: 22rem;
+  height: 24rem;
   position: absolute;
-  left: calc(75% - 15rem);
-  margin-top: 6rem;
+  left: calc(75% - 12rem);
+  margin-top: 7rem;
   border-radius: 0 0 100% 100%;
   overflow: hidden;
   padding: 1rem 1.5rem 1.5rem 1.5rem;

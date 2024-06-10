@@ -18,6 +18,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faC } from '@fortawesome/free-solid-svg-icons';
 import { faTools } from '@fortawesome/free-solid-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { LuBrainCircuit } from "react-icons/lu";
 
 const Experience = () => {
   return (
@@ -79,34 +80,41 @@ const Experience = () => {
               <RiReactjsLine className="experience_details-icon" />
               <div>
                 <h4>ReactJS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="experience_details">
               <SiMongodb className="experience_details-icon" />
               <div>
                 <h4>MongoDB</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="experience_details">
               <DiNodejsSmall className="experience_details-icon" />
               <div>
                 <h4>NodeJS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="experience_details">
               <SiExpress className="experience_details-icon" />
               <div>
                 <h4>ExpressJS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="experience_details">
               <TbBrandNextjs className="experience_details-icon" />
               <div>
                 <h4>NextJS</h4>
+                <small className="text-light">Experience</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <LuBrainCircuit className="experience_details-icon" />
+              <div>
+                <h4>Machine Learning</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

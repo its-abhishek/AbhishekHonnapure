@@ -18,6 +18,7 @@ header {
   position: relative;
   bottom: 1rem;
   right: 4rem;
+  color: var(--color-primary);
 }
 
 .active-link {

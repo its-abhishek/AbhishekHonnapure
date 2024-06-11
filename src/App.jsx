@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Header from "./components/header/Header";
 import Navbar from "./components/nav/Navbar";
+import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
 import Experience from "./components/skills/Skills";
 import Services from "./components/education/Education";
@@ -42,7 +43,7 @@ const App = () => {
     <>
       <Navbar />
       <Header />
-      {/* {currentPath !== "/" && currentPath !== "/home" && <Nav />} */}
+      <Nav />
       <About />
       <Experience />
       <Services />

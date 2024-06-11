@@ -4,15 +4,15 @@ import logo from "../../assets/me-about.jpg";
 
 const Navbar = ({ currentPath, scrollToSection }) => {
   return (
-    <div className="container py-5">
+    <div className="hidden md:block container py-4 ">
       <div className="grid md:grid-cols-2">
-        <div className="hidden md:block">
+        <div>
           <a href="/">
             <img src={logo} className="w-12 h-12 rounded-full" alt="Logo"></img>
           </a>
         </div>
-        <div className="overflow-x-auto">
-          <ul className="flex items-center flex-row gap-6 text-base">
+        <div className="overflow-x-auto md:overflow-x-hidden flex items-center">
+          <ul className="flex flex-row gap-6 text-base">
             {links.map((link) => (
               <li key={link.id}>
                 <a

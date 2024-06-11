@@ -10,7 +10,7 @@ import { FiInstagram } from 'react-icons/fi'
 
 const HeaderLayput = () => {
   return (
-    <div className="container grid grid-cols-1 sm:grid-cols-12 md:mt-8">
+    <div className="container grid grid-cols-1 md:h-screen sm:grid-cols-12 md:-mt-16">
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}

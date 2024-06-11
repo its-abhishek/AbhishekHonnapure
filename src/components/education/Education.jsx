@@ -7,7 +7,7 @@ import { HiBookOpen, HiOutlineBadgeCheck } from "react-icons/hi"
 
 const Services = () => {
   return (
-    <section id="services">
+    <section id="experience">
       <h5 data-aos="fade-down">My Qualifications & Experience</h5>
       <h2 data-aos="fade-down">Experience</h2>
 

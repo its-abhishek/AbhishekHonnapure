@@ -1,73 +1,14 @@
 import React from "react";
-import CTA from "./CTA";
 import "./header.css";
-import ME from "../../assets/me.png";
-import HeaderSocials from "./HeaderSocials";
-import { BsMouse } from "react-icons/bs";
+import HeaderLayput from "./HeaderLayput";
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <header>
-      <div data-aos="zoom-in-down" className="container header__container">
-        <div className="header__navbar">
-          <ul className="permalinks">
-            <div className="header__main">
-              <h1>Abhishek Honnapure</h1>
-            </div>
-            <li>
-              <a href="#" className="active-link">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#experience">Skills</a>
-            </li>
-            <li>
-              <a href="#services">Experience</a>
-            </li>
-            <li>
-              <a href="#portfolio">Portfolio</a>
-            </li>
-{/*             <li>
-              <a href="#testimonials">Awards</a>
-            </li> */}
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div className="header__container-text1">
-          <h1>Hello I'm</h1>
-        </div>
-        <div className="header__container-text2">
-          <h1>Abhishek</h1>
-        </div>
-        <div className="header__container-text3"> {/*data-aos="zoom-in-up"*/}
-          <h5 className="text-light" style={{ border: "2px solid #4db5ff", borderRadius: "5px", padding: "2px" }} >Fullstack Developer</h5>
-        </div>
-        <div className="header__container-text4">
-          <h5>
-            A tech enthusiast and interested in reaching peep's<br></br> to
-            share thoughts and learn something new.
-          </h5>
-        </div>
-        <div className="header__container-text5">
-          <h5>CSE Student @ PES University</h5>
-        </div>
-        <CTA />
-        <HeaderSocials />
-        <div className="me">
-          <img src={ME} alt="me" />
-        </div>
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-          <BsMouse className="mouse__down" />
-        </a>
-      </div>
-    </header>
+    <div className="container">
+      <Navbar/>
+      <HeaderLayput/>
+    </div>
   );
 };
 

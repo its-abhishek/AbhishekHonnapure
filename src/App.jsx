@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Header from "./components/header/Header";
-import Nav from "./components/nav/Nav";
+import Navbar from "./components/nav/Navbar";
 import About from "./components/about/About";
 import Experience from "./components/skills/Skills";
 import Services from "./components/education/Education";
@@ -10,7 +10,7 @@ import Footer from "./components/footer/Footer";
 
 const App = () => {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
-  console.log(currentPath)
+  console.log(currentPath);
 
   const scrollToSection = (path, id, event) => {
     event.preventDefault();
@@ -40,14 +40,13 @@ const App = () => {
 
   return (
     <>
+      <Navbar />
       <Header />
       {/* {currentPath !== "/" && currentPath !== "/home" && <Nav />} */}
-      <Nav />
       <About />
       <Experience />
       <Services />
       <Portfolio />
-      {/* <Events /> */}
       <Contact />
       <Footer currentPath={currentPath} scrollToSection={scrollToSection} />
     </>

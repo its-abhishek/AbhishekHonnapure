@@ -25,12 +25,10 @@ import { SiPostgresql } from "react-icons/si";
 const Experience = () => {
   return (
     <section id="experience">
-      <h5 data-aos="fade-down">What Skills I Have</h5>
-      <h2 data-aos="fade-down">Techincal Skills</h2>
+      <h5>What Skills I Have</h5>
+      <h2>Techincal Skills</h2>
       <div className="container experience__container">
-        <div data-aos="fade-up"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine" className="experience_frontend">
+        <div className="experience_frontend">
           <div className="font-div">
             <FontAwesomeIcon icon={faCode} className="font-icon"></FontAwesomeIcon>
             <h3>Programming Languages</h3>
@@ -129,9 +127,7 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        <div data-aos="fade-up"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine" className="experience_backend">
+        <div className="experience_backend">
           <div className="font-div">
             <FontAwesomeIcon icon={faTools} className="font-icon"></FontAwesomeIcon>
             <h3>Tools In My System</h3>

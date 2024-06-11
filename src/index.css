@@ -34,9 +34,27 @@ html {
 
 /* width */
 ::-webkit-scrollbar {
-    display: none;
+    width: 2px;
   }
-
+  
+  ::-webkit-scrollbar:horizontal{
+    height: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-primary); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary); 
+  }
 
 body {
     font-family: 'Poppins', sans-serif;
